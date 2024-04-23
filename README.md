@@ -53,18 +53,18 @@ Refer to the [docs](https://hewlettpackard.github.io/dc-rl/) for documentation o
 
 ## Prerequisites
 - Linux OS (Ubuntu 20.04)
-- Conda
+- Conda  https://www.anaconda.com/download/success
 - [Optional] Docker (see [docs](https://docs.docker.com/get-docker/)) (Only required for the Sinergym-EnergyPlus Environment)
 
 
 ## Installation
 First, download the repository. If using HTML, execute:
 ```bash
-$ git clone https://github.com/HewlettPackard/dc-rl.git
+$ git clone https://github.com/exeliz/dc-rl.git
 ```
 If using SSH, execute:
 ```bash
-$ git clone git@github.com:HewlettPackard/dc-rl.git
+$ git clone git@github.com:exeliz/dc-rl.git
 ```
 ### Installing the DCRL environment 
 Make sure you have conda installed. For more instructions on installing conda please check the [documentation](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent).

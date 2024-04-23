@@ -15,7 +15,8 @@ from utils.rllib_callbacks import CustomCallbacks
 TIMESTEP_PER_HOUR = 4
 COLLECTED_DAYS = 7
 NUM_AGENTS = 3
-NUM_WORKERS = 24
+NUM_WORKERS = 7
+NUM_GPU = 0
 
 CONFIG = (
         PPOConfig()
@@ -61,7 +62,7 @@ CONFIG = (
             shuffle_sequences=True
         )
         .callbacks(CustomCallbacks)
-        .resources(num_cpus_per_worker=1, num_gpus=0)
+        .resources(num_cpus_per_worker=1, num_gpus=NUM_GPU)
     )
 
 NAME = "test"
